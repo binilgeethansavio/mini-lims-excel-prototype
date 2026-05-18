@@ -1,6 +1,6 @@
 # Mini LIMS - An Excel Prototype for QC Sample and Result Management
 
-A Mini LIMS prototype in Excel — 8 sheets covering sample intake, test results, and specifications, with cross-sheet formula references, automated OOS classification, and a dashboard summarising status and OOS rates.
+A Mini LIMS prototype in Excel - 8 sheets covering sample intake, test results, and specifications, with cross-sheet formula references, automated OOS classification, and a dashboard summarising status and OOS rates.
 
 ## Purpose
 
@@ -15,10 +15,10 @@ This workbook is a learning and portfolio artefact, not production software. It 
 | Samples | Master log of all samples - one row per sample with intake details, logging analyst, storage requirements and sample status. |
 | Test Methods | Reference catalogue of available test procedures, with SOP versions, equipment, and units. |
 | Specifications | Acceptance criteria for each product–test method combination, with lower and upper limits, units, and effective dates. |
-| Results | Test results event log — one row per test performed, with auto-populated specifications, formula-driven Pass/OOS classification, and analyst attribution. |
-| Chain of Custody | Timestamped record of every physical handoff — sample movement between analysts, locations, and storage states. |
-| Audit Trail | Record of every data change across sheets — with Old/New values, reason for change, and approver |
-| Analysts | Reference list of QC staff — initials, full names, roles, and training records — used as the source for analyst dropdowns across the workbook. | 
+| Results | Test results event log - one row per test performed, with auto-populated specifications, formula-driven Pass/OOS classification, and analyst attribution. |
+| Chain of Custody | Timestamped record of every physical handoff - sample movement between analysts, locations, and storage states. |
+| Audit Trail | Record of every data change across sheets - with Old/New values, reason for change, and approver |
+| Analysts | Reference list of QC staff - initials, full names, roles, and training records - used as the source for analyst dropdowns across the workbook. | 
 | Dashboard | Summary dashboard showing total sample count, status distribution, OOS rate, and OOS breakdown by product. |
 
 ## Key Design Decisions
@@ -48,10 +48,10 @@ An audit trail is a record of changes made to data in the system - sample status
 
 ## Limitations and Assumptions
 
-- **Scalability** – This workbook was designed as a small-scale prototype and is not intended to support the larger data volumes, multiple users, or workflow complexity of a production LIMS.
-- **Audit Trail** – Audit trail entries are manually populated for demonstration purposes rather than automatically captured by the system as they would be in a production LIMS.
-- **User Authentication** – The workbook does not include user authentication, electronic signatures, or role-based access controls that would typically be present in a production LIMS.
-- **Specification Data** – The sample specifications are included for illustrative purposes only, with some Ibuprofen values referenced from publicly available USP information, while Paracetamol and Ozempic values were not formally verified for regulated use.
+- **Scalability** - This workbook was designed as a small-scale prototype and is not intended to support the larger data volumes, multiple users, or workflow complexity of a production LIMS.
+- **Audit Trail** - Audit trail entries are manually populated for demonstration purposes rather than automatically captured by the system as they would be in a production LIMS.
+- **User Authentication** - The workbook does not include user authentication, electronic signatures, or role-based access controls that would typically be present in a production LIMS.
+- **Specification Data** - The sample specifications are included for illustrative purposes only, with some Ibuprofen values referenced from publicly available USP information, while Paracetamol and Ozempic values were not formally verified for regulated use.
 
 ## How to Use
 
